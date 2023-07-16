@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Delicious+Handrawn&family=Open+Sans:wght@400;700;800&family=Oswald:wght@400;700&family=Schibsted+Grotesk:ital,wght@0,400;1,600&family=Work+Sans:wght@400;500;600;700;800&display=swap');
+
+/* shared style */
+
+* {
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.btn-primary{
+    border-radius: 8px;
+    background: #FF900E;
+    padding: 10px 25px;
+    border: none;
+    font-size: 1rem;
+    color: #fff;
+    font-weight: 600;
+    margin: 20px;
+}
+/* header style */
+header {
+    background: rgba(255, 144, 14, 0.10);
+    padding: 50px 200px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-title {
+    color: #131313;
+    font-size: 2.3rem;
+    font-weight: 700;
+}
+
+nav>ul {
+    display: flex;
+}
+
+ul li {
+    list-style: none;
+    margin-right: 30px;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #424242;
+}
+
+.banner-content {
+    max-width: 800px;
+    text-align: center;
+    margin: 0px auto;
+}
+
+.banner-title {
+    color: #131313;
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.banner-description {
+    color: #727272;
+    font-size: 1rem;
+    font-weight: 400;
+    margin-top: 16px;
+}
