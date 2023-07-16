@@ -88,18 +88,16 @@ main {
     margin: 0 auto;
 }
 
+/* teams section start */
 .teams-container {
     display: flex;
     align-items: center;
     margin: 100px 200px;
-
 }
-
 .teams-img-container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 1rem;
-
 }
 
 .teams-img-container img {
@@ -126,9 +124,51 @@ main {
     font-size: 2.5rem;
     font-weight: 700;
 }
+/* features section start */
+.features{
+    display: flex;
+    gap: 40px;
+}
+.features-content .section-title{
+    border-left: 5px solid #FF900E;
+    padding-left: 20px;
+}
+.features-card{
+    border-radius: 8px;
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+    margin-top: 30px;
+    padding: 20px;
+}
+.features-image img{
+    max-height: 80%;
+    max-width: 80%;
+    margin-left: 70px;
+}
+.ten-years-badge{
+    border-radius: 8px;
+    background: #FF900E;
+    width: 280px;
+    text-align: center;
+    color: #FFF;
+    position: relative;
+    bottom: 100px;
+}
+.ten-years-badge h2{
+    font-size: 2rem;
+    font-weight: 700;
+    /* padding: 30px 30px 10px; */
+    padding: 40px 20px 0px;
+}
+.ten-years-badge p{
+    font-size: 1rem;
+    font-weight: 500;
+    padding-bottom: 50px;
+}
+
 /* some facts start */
 .facts{
-    margin: 100px;
+    margin: 50px 100px 10px;
 }
 .facts-card-container{
     display: flex;
@@ -199,7 +239,7 @@ main {
         padding: 20px;
     }
 
-    nav, .teams-container, .facts-card-container, .sponsors{
+    nav, .teams-container, .facts-card-container, .sponsors, .features{
         flex-direction: column;
     }
     .teams-img-container{
@@ -208,6 +248,10 @@ main {
     .facts{
         margin: 1.2rem;
     }
+    .features-image img{
+        max-width: 70%;
+        
+    }
 }
 
 /* medium device  */
@@ -215,7 +259,7 @@ main {
     header {
         padding: 50px;
     }
-    nav , .teams-container, .sponsors {
+    nav , .teams-container, .sponsors, .features{
         flex-direction: column;
     }
     .teams-content{
@@ -223,5 +267,9 @@ main {
     }
     .card-email{
         margin: 9px 0px;
+    }
+    .features-image img{
+        max-width: 80%;
+        margin-left: 70px;
     }
 }
